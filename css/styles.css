@@ -1,0 +1,51 @@
+
+body {
+  background-color: #696969;
+}
+
+/* navbar styles start */
+.navbar-default {
+  background-color: #000;
+  border: none;
+}
+
+.nav-pills {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: inherit;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: transparent;
+    color: #696969; //grey
+    font-size: 14px;
+}
+
+.nav-pills>li>a,
+.nav-pills>li>a:hover {
+  background-color: transparent;
+  color: #696969;
+}
+
+.nav-pills>li>a:hover {
+  font-size: 18px;
+}
+/* navbar styles end */
+/* jumbotron styles start */
+.jumbotron {
+  height: 500px;
+  background-image: url('../img/macbook-rainbow.jpg');
+  background-color: #cccccc;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: .6;
+  color: #fff;
+}
+
+.jumbotron-container {
+  text-align: center;
+}
+/* jumbotron styles end */
