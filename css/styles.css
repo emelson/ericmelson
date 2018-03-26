@@ -1,12 +1,21 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Mr+Bedfort');
+@import url('https://fonts.googleapis.com/css?family=Aubrey');
 
 body {
   background-color: #696969;
+  font-family: 'Aubrey', cursive;
 }
 
 /* navbar styles start */
 .navbar-default {
   background-color: #000;
   border: none;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: 'Mr Bedfort', cursive;
 }
 
 .nav-pills {
@@ -32,6 +41,7 @@ body {
 
 .nav-pills>li>a:hover {
   font-size: 18px;
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 /* navbar styles end */
 /* jumbotron styles start */
@@ -43,9 +53,40 @@ body {
   background-repeat: no-repeat;
   opacity: .6;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .jumbotron-container {
   text-align: center;
 }
+
+.fa-angle-down {
+  font-size: 20px;
+  color: #fff;
+}
+
+.fa-stack {
+  font-size: 30px;
+  color: #fff;
+}
 /* jumbotron styles end */
+/* about styles start */
+.about-text {
+
+  text-align: justify;
+}
+.drum {
+  display: flex;
+  justify-content: flex-end;
+}
+.silver-drum {
+  height: 400px;
+}
+
+/* about styles end */
+/* portfolio styles start */
+.thumbnail>a:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* portfolio styles end */
