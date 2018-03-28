@@ -48,7 +48,7 @@ body {
 }
 
 .nav-pills>li>a:hover {
-  font-size: 18px;
+
   text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 /* navbar styles end */
@@ -95,6 +95,15 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
+}
+
+.carousel-padding {
+  padding: 0;
+}
+
+.carousel-padding-right {
+  padding-right: 15px;
 }
 /* about styles end */
 
@@ -138,6 +147,21 @@ footer {
   background-color: inherit;
 }
 
+.flex-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa {
+  font-size: 18px;
+  text-decoration: none;
+  color: #696969;
+}
+
+.flex-social>a:hover {
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
+}
 .footer-brand {
   font-family: 'Mr Bedfort', cursive;
   color: #696969;
