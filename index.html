@@ -47,13 +47,61 @@
   <!-- about starts -->
   <div class="conatiner" id="about">
     <div class="row">
+      <!-- about text starts -->
       <div class="col-sm-6 about-text">
         <h2>About me...</h2>
         <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptas id nihil ipsum adipisci debitis quia voluptatem atque, velit fugiat nisi aliquid consequuntur voluptatum cupiditate provident natus reprehenderit, dolorum expedita?</span><span>Ad tenetur neque dolores at ullam harum velit laboriosam quam, maiores nihil accusamus ex libero enim omnis similique, repellat. Doloremque fugit officia sint eligendi provident sed laborum fugiat hic quas?</span></p>
       </div>
-      <div class="col-sm-6 drum">
-        <img src="img/silver-drum.jpg" class="img-responsive silver-drum" alt="Author Image">
+      <!-- about text ends -->
+      <!-- about pictures start -->
+      <div class="col-sm-6 flex-carousel">
+        <!-- carousel starts -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+          <div class="carousel-inner flex-carousel" role="listbox">
+            <!-- slide 1 starts -->
+            <div class="item active">
+              <img src="img/silver-drum.jpg" alt="drum" class="img-respnsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <!-- slide 1 ends -->
+            <!-- slide 2 starts -->
+            <div class="item">
+              <img src="img/silver-drum.jpg" alt="drum" class="img-respnsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <!-- slide 2 ends -->
+            <!-- slide 3 starts -->
+            <div class="item">
+              <img src="img/silver-drum.jpg" alt="drum" class="img-respnsive">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <!-- slide 3 ends -->
+          </div>
+          <!-- wrapper for slides ends -->
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- carousel ends -->
       </div>
+      <!-- about pictures ends -->
     </div>
   </div>
   <!-- about ends -->

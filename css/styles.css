@@ -79,15 +79,14 @@ body {
 /* jumbotron styles end */
 /* about styles start */
 .about-text {
-
   text-align: justify;
 }
-.drum {
+
+.flex-carousel {
   display: flex;
   justify-content: flex-end;
-}
-.silver-drum {
-  height: 300px;
+  align-items: center;
+  height: 100%;
 }
 
 /* about styles end */
