@@ -8,6 +8,10 @@ body {
   color: #fff;
 }
 
+.page-header {
+  padding-left: 15px;
+}
+
 /* navbar styles start */
 .navbar-default {
   height: auto;
@@ -95,7 +99,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+
 }
 
 .carousel-padding {
@@ -164,6 +168,11 @@ footer {
 }
 .footer-brand {
   font-family: 'Mr Bedfort', cursive;
+  color: #696969;
+}
+
+.copy>a, .copy>a:hover {
+  text-decoration: none;
   color: #696969;
 }
 /* footer styles end */
