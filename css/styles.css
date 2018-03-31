@@ -8,9 +8,13 @@ body {
   color: #fff;
 }
 
+.page-header {
+  padding-left: 15px;
+}
+
 /* navbar styles start */
 .navbar-default {
-  height: 80px;
+  height: auto;
   background-color: #000;
   border: none;
   margin-bottom: 0;
@@ -18,6 +22,7 @@ body {
 
 .navbar-brand {
   font-family: 'Mr Bedfort', cursive;
+  color: #696969;
 }
 
 .logo-image {
@@ -35,9 +40,9 @@ body {
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
-    background-color: transparent;
-    color: #696969; //grey
-    font-size: 14px;
+  background-color: transparent;
+  color: #696969; //grey
+  font-size: 14px;
 }
 
 .nav-pills>li>a,
@@ -47,10 +52,11 @@ body {
 }
 
 .nav-pills>li>a:hover {
-  font-size: 18px;
+
   text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 /* navbar styles end */
+
 /* jumbotron styles start */
 .jumbotron {
   height: 500px;
@@ -58,45 +64,59 @@ body {
   background-color: #cccccc;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  opacity: .6;
-  color: #fff;
   margin-bottom: 0;
 }
 
-.jumbotron-container {
-  text-align: center;
+.jumbotron>.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  color: #696969;
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 
 .fa-angle-down {
   font-size: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .fa-stack {
   font-size: 30px;
   color: #fff;
+  text-align: center;
 }
 /* jumbotron styles end */
+
 /* about styles start */
 .about-text {
-
   text-align: justify;
 }
-.drum {
+
+.flex-carousel {
   display: flex;
   justify-content: flex-end;
-}
-.silver-drum {
-  height: 300px;
+  align-items: center;
+
 }
 
+.carousel-padding {
+  padding: 0;
+}
+
+.carousel-padding-right {
+  padding-right: 15px;
+}
 /* about styles end */
+
 /* portfolio styles start */
 .thumbnail>a:hover {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 /* portfolio styles end */
+
 /* contact form styles start */
 .form-control {
   background-color: transparent;
@@ -110,3 +130,49 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
   border: none;
 }
 /* contact form styles end */
+
+/* footer styles start */
+footer {
+  background-color: #000;
+  color: #696969;
+}
+
+.flex-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50px;
+}
+
+.footer-middle-nav>.nav-pills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.flex-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa {
+  font-size: 18px;
+  text-decoration: none;
+  color: #696969;
+}
+
+.flex-social>a:hover {
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
+}
+.footer-brand {
+  font-family: 'Mr Bedfort', cursive;
+  color: #696969;
+}
+
+.copy>a, .copy>a:hover {
+  text-decoration: none;
+  color: #696969;
+}
+/* footer styles end */
