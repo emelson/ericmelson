@@ -37,8 +37,6 @@ body {
   border: none;
 }
 
-
-
 .logo-image {
   height: 50px;
   width: 50px;
@@ -94,30 +92,22 @@ body {
 /* jumbotron styles end */
 
 /* about styles start */
+.about-padding {
+  padding: 30px 30px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+}
+
 .jumbotron-coffee {
   height: 100%;
   background-image: url('../img/coffee.jpg');
   background-size: cover;
   background-position: center;
-
-}
-
-.about-text {
-  text-align: justify;
-}
-
-.flex-carousel {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.carousel-padding {
-  padding: 0;
-}
-
-.carousel-padding-right {
-  padding-right: 15px;
 }
 /* about styles end */
 
