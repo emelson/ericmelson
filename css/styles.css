@@ -111,11 +111,16 @@ body {
 }
 /* about styles end */
 
-/* portfolio styles start */
+/* work styles start */
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
 .thumbnail>a:hover {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
-/* portfolio styles end */
+/* work styles end */
 
 /* contact form styles start */
 .form-control {
