@@ -8,21 +8,33 @@ body {
   color: #fff;
 }
 
+/* universal styles start */
 .page-header {
   padding-left: 15px;
 }
+
+.text-shadow {
+  text-shadow: -.5px 0 #000, 0 .5px #000, .5px 0 #000, 0 -.5px #000;
+}
+
+.grey-text {
+  color: #696969;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.brand-text {
+  font-family: 'Mr Bedfort', cursive;
+}
+/* universal styles end */
 
 /* navbar styles start */
 .navbar-default {
   height: auto;
   background-color: #000;
   border: none;
-  margin-bottom: 0;
-}
-
-.navbar-brand {
-  font-family: 'Mr Bedfort', cursive;
-  color: #696969;
 }
 
 .logo-image {
@@ -52,7 +64,6 @@ body {
 }
 
 .nav-pills>li>a:hover {
-
   text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 /* navbar styles end */
@@ -61,10 +72,10 @@ body {
 .jumbotron {
   height: 500px;
   background-image: url('../img/macbook-rainbow.jpg');
-  background-color: #cccccc;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 0;
+  background-attachment: fixed;
 }
 
 .jumbotron>.container {
@@ -73,41 +84,30 @@ body {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
-  color: #696969;
-  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
 
-.fa-angle-down {
-  font-size: 20px;
+.fa-stack-2x {
   color: #fff;
-  text-align: center;
-}
-
-.fa-stack {
-  font-size: 30px;
-  color: #fff;
-  text-align: center;
 }
 /* jumbotron styles end */
 
 /* about styles start */
-.about-text {
-  text-align: justify;
+.about-padding {
+  padding: 30px 30px;
 }
 
-.flex-carousel {
+.about-flex {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-
+  height: 100%;
+  font-size: 24px;
 }
 
-.carousel-padding {
-  padding: 0;
-}
-
-.carousel-padding-right {
-  padding-right: 15px;
+.jumbotron-coffee {
+  height: 100%;
+  background-image: url('../img/coffee.jpg');
+  background-size: cover;
+  background-position: center;
 }
 /* about styles end */
 
@@ -166,9 +166,10 @@ footer {
 .flex-social>a:hover {
   text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
 }
+
 .footer-brand {
   font-family: 'Mr Bedfort', cursive;
-  color: #696969;
+  color: #FF0000;
 }
 
 .copy>a, .copy>a:hover {
