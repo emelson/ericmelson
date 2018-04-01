@@ -17,6 +17,9 @@ body {
   text-shadow: -.5px 0 #000, 0 .5px #000, .5px 0 #000, 0 -.5px #000;
 }
 
+.text-shadow-white {
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
+}
 .grey-text {
   color: #696969;
 }
