@@ -9,7 +9,7 @@ body {
 }
 
 /* universal styles start */
-.page-header {
+.page-header>h1 {
   padding-left: 15px;
 }
 
@@ -17,6 +17,9 @@ body {
   text-shadow: -.5px 0 #000, 0 .5px #000, .5px 0 #000, 0 -.5px #000;
 }
 
+.text-shadow-white {
+  text-shadow: -.5px 0 #fff, 0 .5px #fff, .5px 0 #fff, 0 -.5px #fff;
+}
 .grey-text {
   color: #696969;
 }
@@ -104,6 +107,10 @@ body {
 }
 
 .jumbotron-coffee {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 20px;
   height: 100%;
   background-image: url('../img/coffee.jpg');
   background-size: cover;
@@ -111,13 +118,27 @@ body {
 }
 /* about styles end */
 
-/* portfolio styles start */
+/* work styles start */
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
 .thumbnail>a:hover {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
-/* portfolio styles end */
+/* work styles end */
 
 /* contact form styles start */
+.contact-text {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+
 .form-control {
   background-color: transparent;
   border: none;
