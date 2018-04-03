@@ -158,13 +158,15 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 form {
-  height: auto;
-  width: 400px;
+
 }
 
 .form-flex {
   display: flex;
   height: 400px;
+  width: 350px;
+  border: 1px solid #fff;
+  padding: 15px;
   justify-content: center;
   align-items: center;
 }
@@ -177,7 +179,6 @@ form {
 .btn-default {
   background-color: transparent;
   color: #fff;
-  border: 1 px solid #fff;
 }
 /* contact form styles end */
 
