@@ -163,17 +163,24 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 .form-flex {
   display: flex;
   height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
   background-color: #333;
   border: 1px solid #fff;
   padding: 15px;
-  justify-content: center;
-  align-items: center;
 }
 
 .form-control {
   background-color: #696969;
   border: 1px solid #fff;
   color: #fff;
+}
+
+textarea {
+  margin-top: 20px;
 }
 
 .btn-default {
@@ -190,7 +197,7 @@ footer {
 
 .flex-footer {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   height: 50px;
 }
