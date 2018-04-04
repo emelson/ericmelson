@@ -197,7 +197,7 @@ footer {
 
 .flex-footer {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   height: 50px;
 }
