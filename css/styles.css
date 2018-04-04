@@ -120,9 +120,9 @@ body {
 
 .about-flex {
   display: flex;
-  align-items: center;
   height: 100%;
-
+  align-items: center;
+  justify-content: center;
 }
 /* about styles end */
 
@@ -163,7 +163,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 .form-flex {
   display: flex;
   height: 400px;
-  width: 350px;
+  background-color: #333;
   border: 1px solid #fff;
   padding: 15px;
   justify-content: center;
@@ -171,8 +171,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: #696969;
   border: 1px solid #fff;
+  color: #fff;
 }
 
 .btn-default {
@@ -254,13 +255,8 @@ footer {
 /* footer styles end */
 
 /* media queries start */
-@media only screen and (min-device-width: 480px) {
-
-
-
-
-
-
-
-
-    }
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  }
