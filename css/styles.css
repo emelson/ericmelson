@@ -269,9 +269,13 @@ footer {
   [class*="col-"] {
     width: 100%;
   }
+<<<<<<< HEAD
+  
+=======
   .jumbotron {
     height: 300px;
   }
+>>>>>>> 3d5fb71d73f6367a3b30ddb5d397f03cc3526fda
   .carousel-small {
     width: 75%;
     margin: auto;
