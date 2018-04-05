@@ -57,7 +57,7 @@ body {
 }
 
 .container-padding {
-  padding: 100px 0;
+  padding: 100px 15px;
 }
 /* universal styles end */
 
@@ -67,6 +67,7 @@ body {
   background-color: #000;
   border: none;
 }
+
 
 .nav-pills {
   display: flex;
@@ -116,6 +117,7 @@ body {
 /* about styles start */
 .about-padding {
   padding: 50px 50px;
+  font-size: 18px;
 }
 
 .about-flex {
@@ -266,6 +268,9 @@ footer {
 @media only screen and (max-width: 767px) {
   [class*="col-"] {
     width: 100%;
+  }
+  .jumbotron {
+    height: 200px;
   }
   .carousel-small {
     width: 75%;
