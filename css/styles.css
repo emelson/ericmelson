@@ -96,7 +96,7 @@ body {
 
 /* jumbotron styles start */
 .jumbotron {
-  height: 500px;
+  height: 400px;
   background-image: url('../img/macbook-rainbow.jpg');
   background-size: cover;
   background-position: center;
@@ -267,4 +267,8 @@ footer {
   [class*="col-"] {
     width: 100%;
   }
+  .carousel-small {
+    width: 75%;
+    margin: auto;
+    }
   }
